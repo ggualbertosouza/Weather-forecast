@@ -1,27 +1,21 @@
-# React + TypeScript + Vite
+# Weather Forecast
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+É um projeto que mostra a temperatura da sua cidade e qualquer lugar do mundo,
+faz uso da Open Weather API para mostrar a previsão do tempo, porém, utilizando apenas funcionalidade gratuitas disponibilizadas pela API.
 
-Currently, two official plugins are available:
+## Tecnologias
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,typescript,redux,tailwindcss,html,css" />
+  </a>
+</p>
+## Bibliotecas e suas funcionalidades
+- Framer-motion: Usada para criar as animações da tela.
+- Redux | @reduxjs/toolkit: Usada para gerenciar estados globais, como o nome da cidade inserida no componente de INPUT e enviada para hook responsável por fazer a requisição na API.
+- TailwindCSS: Usada para fazer toda a estilização do site.
+- Axios: Usada para fazer requisição web.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Imagens
 
-## Expanding the ESLint configuration
+<img src='https://images2.imgbox.com/d7/8c/13JNUJbj_o.png' />
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
