@@ -3,6 +3,12 @@
 É um projeto que mostra a temperatura da sua cidade e qualquer lugar do mundo,
 faz uso da Open Weather API para mostrar a previsão do tempo, porém, utilizando apenas funcionalidade gratuitas disponibilizadas pela API.
 
+## Veja o site:
+- https://weatherforecast-ggs.netlify.app/
+### Imagens
+
+<img src='https://images2.imgbox.com/d7/8c/13JNUJbj_o.png' />
+
 ## Tecnologias
 <p>
   <a href="https://skillicons.dev">
@@ -15,7 +21,5 @@ faz uso da Open Weather API para mostrar a previsão do tempo, porém, utilizand
 - TailwindCSS: Usada para fazer toda a estilização do site.
 - Axios: Usada para fazer requisição web.
 
-## Imagens
 
-<img src='https://images2.imgbox.com/d7/8c/13JNUJbj_o.png' />
 
