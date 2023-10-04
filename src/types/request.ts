@@ -3,7 +3,7 @@ export type RequestProps = {
         speed?: string,
     },
     main: {
-        temp?: string,
+        temp?: number,
         humidity?: string,
     },
     weather:{

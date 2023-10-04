@@ -17,8 +17,9 @@ import { isRaining } from "./Sky";
 export default function Weather() {
   const data = useFetch<RequestProps>()
 
-  const temp = parseInt(data?.main.temp)
-  
+  const temp = data?.main.temp as number
+
+  console.log(typeof(data?.main.temp))
   return (
     <section className="flex flex-col items-center justify-center mx-auto gap-12">
       <SearchBar />

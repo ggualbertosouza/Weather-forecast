@@ -1,7 +1,7 @@
 // React icons
 import { TiWeatherPartlySunny, TiWeatherShower, TiWeatherCloudy, TiWeatherSunny } from "react-icons/ti";
 
-export function isRaining(weather: string) {
+export function isRaining(weather: string | null | undefined) {
     switch(weather){
         case 'céu limpo':
             return <TiWeatherSunny />
